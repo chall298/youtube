@@ -36,8 +36,14 @@ const Input = styled.input`
 `
 
 const Center = styled.div`
-    flex: 1
+    flex: 1;
+    text-align: center;
 `
+
+const Logo = styled.h1`
+    font-weigth: bold;
+`
+
 const Right = styled.div`
     flex: 1
 `
@@ -53,7 +59,7 @@ const Navbar = () => {
                         <Search></Search>
                     </SearchContainer>
                 </Left>
-                <Center>center</Center>
+                <Center><Logo>LAMA.</Logo></Center>
                 <Right>right</Right>
             </Wrapper>
         </Container>
